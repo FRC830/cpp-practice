@@ -5,8 +5,8 @@ int main() {
     std::cin >> a;
     std::cin >> b;
     if (a > b) {
-        std::cout << "That's pretty great\n"
+        std::cout << "That's pretty great\n";
     } else {
-        std::cout << "That sucks man\n"
+        std::cout << "That sucks man\n";
     }
 }

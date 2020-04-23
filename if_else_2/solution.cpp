@@ -8,7 +8,7 @@ string is_greater(int num1, int num2) {
     } else if (num1 == num2) {
         return "equal";
     } else {
-        return "less"
+        return "less";
     }
 }
 int main() {
@@ -17,4 +17,5 @@ int main() {
     std::cin >> b;
     string result;
     result = is_greater(a, b);
+    cout << result << "\n";
 }
