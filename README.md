@@ -18,6 +18,4 @@ Order:
 - (21) assignment_and_increment
 - (22/23) for_loops
 - (24) *skipped `do while`*
-- (25) burger_chef
-- (26) logical_operator
-- (27/28) random_function
+- (25) 
