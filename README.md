@@ -19,4 +19,5 @@ Order:
 - (22/23) for_loops
 - (24) *skipped `do while`*
 - (25) switch_age 
-- (26)
+- (26) logical_operators
+- (27)
