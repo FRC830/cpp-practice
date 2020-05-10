@@ -20,4 +20,6 @@ Order:
 - (24) *skipped `do while`*
 - (25) switch_age 
 - (26) logical_operators
-- (27)
+- (27) *skipped `random number gen`*
+- (28) default_args
+- (29) cpp_scope `Work in Progress`*
