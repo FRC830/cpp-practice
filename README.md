@@ -36,7 +36,7 @@ Order:
 - (41) *skipped `pointers and math`*
 - (42) TODO arrow member selection
 - (43) *skipped `deconstructors`*
-- (43.5) TODO constants
+- (43.5) const_vars
 - (44) *skipped `const Objects`*
 - (45) TODO member initializers
 - (46/47) TODO class composition
