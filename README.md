@@ -34,7 +34,7 @@ Order:
 - (39) pointer_functions  **do not watch buckys video, it is actually incorrect**
 - (40) *skipped `sizeof`*
 - (41) *skipped `pointers and math`*
-- (42) TODO arrow member selection
+- (42) arrow_selection
 - (43) *skipped `deconstructors`*
 - (43.5) const_vars
 - (44) *skipped `const Objects`*
