@@ -38,7 +38,7 @@ Order:
 - (43) *skipped `deconstructors`*
 - (43.5) const_vars
 - (44) *skipped `const Objects`*
-- (45) TODO member initializers
+- (45)  member_initializers **WIP**
 - (46/47) TODO class composition
 - (48) *skipped `friend`*
 - (49) TODO this
