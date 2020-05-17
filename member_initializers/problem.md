@@ -53,4 +53,4 @@ int main(){
 Create a class called `Circle` and make a private const float called `pi` and make a constructor with one arguement.
 Create a method to then print out the value of `pi` in a public acceser.
 Then create an object of that class in `main()` and set that object's pi member using the Member Intializer syntax.
-**WIP
+WIP** This is kind of hard
