@@ -22,7 +22,7 @@ Order:
 - (26) logical_operators
 - (27) *skipped `random number gen`*
 - (28) default_args
-- (29) cpp_scope 
+- (29) *skipped 'unary scope operator'* 
 - (30) function_overloading
 - (31) recursive_factorial
 - (32) array_intro
