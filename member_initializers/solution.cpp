@@ -3,26 +3,29 @@
 using namespace std;
 
 
-class Circle(){
+class Circle{
     
     public:
         Circle(float a)
+        : radius(a)
+        {
+
+        }
+        void printRadius(){
+            cout << "The raidus of this circle is " << radius << endl;
+        }
     private:
-        const float pi;
+        const float radius;
 
 
 
 };
 
-Circle::Circle(float a)
-: pi(a)
-{
-}
 
 int main(){
 
-    Circle smallCir(3.14);
-    cout << smallCir.pi << endl
+    Circle smallCir(5.30);
+    cout << smallCir.printRadius << endl
 
 
 

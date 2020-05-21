@@ -50,7 +50,6 @@ int main(){
 ```
 
 
-Create a class called `Circle` and make a private const float called `pi` and make a constructor with one arguement.
-Create a method to then print out the value of `pi` in a public acceser.
-Then create an object of that class in `main()` and set that object's pi member using the Member Intializer syntax.
-WIP** This is kind of hard
+Create a class called `Circle` and make a private static const float called `radius` and make a constructor with one arguement of type float. Set `radius` to the argument in the constructor using member initializer syntax. 
+Make a method that will print out the value of `radius` 
+Lastly, make an instance of `Circle` in main() and use the method to print out `radius` out that instance.
