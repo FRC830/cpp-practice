@@ -39,7 +39,7 @@ Order:
 - (43.5) const_vars
 - (44) *skipped `const Objects`*
 - (45)  member_initializers 
-- (46/47) TODO class composition
+- (46/47) class_comp
 - (48) *skipped `friend`*
 - (49) TODO this
 - (50/51) *skipped `operator overloading`*
