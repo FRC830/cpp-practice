@@ -43,7 +43,7 @@ Order:
 - (48) *skipped `friend`*
 - (49) this_keyword
 - (50/51) *skipped `operator overloading`*
-- (52) TODO inheritance
+- (52) inherit_classes
 - (53) *skipped `protected`*
 - (54) *skipped `derived class constructors`*
 - (55) TODO polymorphism
