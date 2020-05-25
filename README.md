@@ -46,7 +46,7 @@ Order:
 - (52) inherit_classes
 - (53) *skipped `protected`*
 - (54) *skipped `derived class constructors`*
-- (55) TODO polymorphism
+- (55) polymorphism
 - (56) *skipped `virtual functions`*
 - (57) *skipped `abstract classes and pure virtual functions`*
 - (58) TODO function templates
