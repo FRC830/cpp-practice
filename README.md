@@ -55,3 +55,4 @@ Order:
 - (61) *skipped `template specializations`*
 - (62-69) *optional `working with files and exceptions`*
 - (71/72/73) TODO string class and manipulation
+- (71) string_class
