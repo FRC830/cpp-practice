@@ -56,3 +56,5 @@ Order:
 - (62-69) *optional `working with files and exceptions`*
 - (71/72/73) TODO string class and manipulation
 - (71) string_class
+- (71) string_class_2
+- (71) string_class_3
