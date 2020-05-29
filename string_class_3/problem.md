@@ -35,5 +35,7 @@ int main(){
 }
 ```
 
+The `length()` method from the `string` class gathers the amount of bytes that the string takes up upon instantiation. Since a single `char` varible would hold a minimum size of 1 byte, the method `length()` would simply return the number of bytes (which is usually the amount of characters) in a string.
+
 Create a function that takes the input of a string and prints half of it. Use a for loop as well as the length of the string in order to print half of it. 
 Test your function in `main()` with a string

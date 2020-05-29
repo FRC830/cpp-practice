@@ -58,3 +58,4 @@ Order:
 - (71) string_class
 - (71) string_class_2
 - (71) string_class_3
+- (72) more_strings
