@@ -49,4 +49,11 @@ int main(){
 }
 ```
 
+For this lesson's problem, use the following string definition:
+```cpp
+
+string fruits("Apple Peach Grapes Grapes Apple Tomatoes");
+
+```
+First, create a string variable and store a substring that will contain the first **five** words of `fruits`. Then cout the first occurance of Grapes using the `find()` method from the string class and the cout the last occurance of Apple using the `rfind()` method.
 
