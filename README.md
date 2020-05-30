@@ -54,8 +54,8 @@ Order:
 - (60) *skipped `class templates`* **these are evil and should be burned for witchcraft**
 - (61) *skipped `template specializations`*
 - (62-69) *optional `working with files and exceptions`*
-- (71/72/73) TODO string class and manipulation
 - (71) string_class
 - (71) string_class_2
 - (71) string_class_3
 - (72) more_strings
+- (73) more_strings_2
