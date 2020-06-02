@@ -24,8 +24,8 @@ class Circle{
 
 int main(){
 
-    Circle smallCir(5.30);
-    cout << smallCir.printRadius << endl
+    Circle smallCir(5.3);
+    smallCir.printRadius();
 
 
 

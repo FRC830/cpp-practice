@@ -1,16 +1,23 @@
 #include<iostream>
 #include<string>
 
+
 using namespace std;
 
 
-string someThing("FortyTwo");
-string answerToLifeAndEverything;
-answerToLifeAndEverything.assign(someThing);
+
+string testStr("BrotherMoment");
+
+string halfString(string x){
+    for(int i = 0; i < x.length() / 2; i ++){
+        cout << x.at(i);
+    }
+    cout << endl;
+}
 
 int main(){
-    answerToLifeAndEverything.assign(someThing);
-    cout << someThing << endl;
-    cout << answerToLifeAndEverything << endl;
+
+    halfString(testStr);
+
 
 }

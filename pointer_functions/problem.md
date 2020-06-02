@@ -6,9 +6,9 @@ Pointers add another level of complexity to c++ with functions. There are now 3 
 + pass by reference
 + pass by address
 
-[Watch this](https://www.youtube.com/watch?v=UWYnUGnChhA)
+[Watch this first](https://www.youtube.com/watch?v=UWYnUGnChhA)
 
-A `pass by value` function `void pass(int val)`passes the *value* of a variable. Any changes to the variable are not repeated, since a copy is made
+A `pass by value` function `void pass(int val)` passes the *value* of a variable. Any changes to the variable are not repeated, since a copy is made
 
 A `pass by pointer` function `void pass(int *val)` passes the *pointer*  of a variable. So the function will receive the memory address of the variable. 
 By deferencing the pointer, you can now change the value of the original variable. You would call this with  `pass(&variable)`

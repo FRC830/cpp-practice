@@ -56,6 +56,5 @@ Order:
 - (62-69) *optional `working with files and exceptions`*
 - (71) string_class
 - (71) string_class_2
-- (71) string_class_3
 - (72) more_strings
 - (73) more_strings_2

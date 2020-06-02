@@ -6,24 +6,21 @@ using namespace std;
 class Quadralateral{
 
     public:
-        Quadralateral()
-        {
-        }
+        Quadralateral(){}
         int numOfSides = 4;
+        bool allRight = false;
+        void sayInfo(){
+            cout << "I have " << numOfSides << " sides. My angles are not all right\n";
+        }
 };
 
-class Square: public Quadralateral{
+class Square: public Quadralateral {
 
     public:
-        Square()
-        {
-        }
-        bool allRightAngles = true;
-        void sayInfo(){
-            cout << "I have " << numOfSides << "sides and "
-            if(allRightAngles){
-                cout << "I have all right angles!"
-            }
+        Square(){}
+        bool allRight = true;
+        void sayInfo() {
+            cout << "I have " << numOfSides << " sides. My angles are all right\n";
         }
 
 
@@ -31,12 +28,8 @@ class Square: public Quadralateral{
 
 
 int main(){
-
     Quadralateral quadA ;
-    cout << quadA.numOfSides;
+    quadA.sayInfo();
     Square squareA;
     squareA.sayInfo();
-
-
-
 }

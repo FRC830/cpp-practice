@@ -3,10 +3,10 @@
 Nested arrays are the next type of datastructure based on arrays. It is an array that holds arrays. Here is an example:
 
 ```cpp
-int nested[3][4] = {
+int nested[4][3] = { // [row][column]
     {1,2,3}, // row 0
     {4,5,6}, // row 1
-    {7,8,9} // row 2
+    {7,8,9}, // row 2
     {10,11,12} // row 3
 }
 ```

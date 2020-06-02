@@ -13,20 +13,16 @@ Inheritance is the concept of a class "inheriting" things from another class. Th
 class Parent{
 
     public:
-        Parent()
-        {
-        }
+        Parent(){}
         void sayPheno(){
             cout << "I am double jointed" << endl;
         }
 };
 
-class Child: public Parent{        // <---- Use a colon with an accesser keyword and class name to inherit
+class Child: public Parent {        // <---- Use a colon with an accesser keyword and class name to inherit
 
-     public:   
-        Child()
-        {
-        }
+     public:
+        Child(){}
 
 };
 
@@ -39,10 +35,14 @@ int main(){
 
     //Both objects will call the method
 }
-
-
 ```
 
-Create a base class called `Quadralateral` and make it have a public int variable called `numOfSides` equal to 4. Then, create another class called `Square` that will derive from `Quadraleteral`. Give `Square` a public bool variable called `allRightAngles` and set it to true. 
-Make a method that will print the `numberOfSides` of a `Square` and say that it also has four right angles(use a conditonal for this part). 
-Print the numbers of sides of a `Quadraleteral` and use the method from `Square` in `int main()`
+### Problem
+
+- Create a base class called `Quadralateral`
+- Give it a public int variable called `numOfSides` and set it.
+- Create another class called `Square` that will derive from `Quadraleteral`. (Use the colon with public)
+- Create a method on the `Quadraleteral` class  that prints the number of sides
+- Initialize an instance of the `Quadraleteral` class and call the method from `main`
+- Create a method on the `Quadraleteral` class  that prints the number of sides **as well as a statement such as 'Called from square' or 'I have all right angles.'**
+- Initialize an instance of the `Square` class and call the method from `main`

@@ -19,24 +19,18 @@ class DogBreed{
 };
 
 
-class Dog{
+class Dog {
 
     public:
-        Dog(int a, DogBreed breedO)
-        : age(a) , breed(breedO)
-        {
-        }
-        void printInfo(){
-            cout << "The age of this dog is " << age << " and the breed is " << breed.printBreed();
+        Dog(int a, DogBreed breedO): age(a) , breed(breedO) {}
+        void printInfo() {
+            cout << "The age of this dog is " << age << " and the breed is ";
+            breed.printBreed();
         }
 
     private:
         int age;
         DogBreed breed;
-
-
-
-
 };
 
 

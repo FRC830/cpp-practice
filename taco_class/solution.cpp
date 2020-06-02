@@ -1,6 +1,5 @@
-#include "Taco.h"
+#include "Taco.cpp"
 
 int main() {
     Taco beefTaco;
-    return 0;
 }

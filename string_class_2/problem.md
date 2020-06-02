@@ -1,39 +1,41 @@
-# Creating and Copying Strings
+# Interpreting strings as arrays 
 
-
-As you already know, using the `<string>` class, you can declare a variable off type `string` this way:
-
-```cpp
-    string lookAString = "Leaflet";
-```
-
-But another way to create a string is the following:
+So far, we've been treating strings as if they were a *complete* variable. However, the definition of a `string` is, essentially, an array of characters. Basically, anything that you can do to an array, you can do to a string:
 
 ```cpp
-    string lookAString("Leaflet");
+string animal("Zebra");
+
+int main(){
+    cout << animal[2];
+    // Prints out "b"; array indexes always start at 0
+}
 ```
 
-The method above passes in a value to set to a variable called `lookAString`. It's important to know this method exsists in order to not get confused while reading new code.
-
-Another thing that can be done multiple ways is copying strings. Currently, we know that we can copy a string using the following:
+Antoher way we can `cout` indexes of strings is by using the `at()` method from the string class. This method functions the same way as the index operator, as it will retrive the chracter at the index:
 
 ```cpp
-    string data1 = "Pineapples belong on pizza";
-    string data2;
-    data2 = data1;
-   
+string bird("Woodpecker");
+
+int main(){
+    bird.at(5);
+    // Prints out the letter at index 5
+}
 ```
 
-However, in the string class, we an use a method to copy strings called `assign()`. This method can be accessed using a dot operator from a string and will assign that string with the value of another:
+Since strings are just arrays of characters, they are also iterable like normal arrays. In order to get the size of a string, use the `length()` method from the string class demonstrated in the example below:
 
 ```cpp
-    string data1 = "Pineapples belong on pizza";
-    string data2;
-    data2.assign(data1);
-    // data2 now contains the same string characters as data1
+string sentence("I don't like candy");
+
+int main(){
+    for(int i = 0; i < senctance.length() - 2; i++){
+        cout << sentence.at(i);
+    }
+    // prints "I don't like can"
+}
 ```
 
+The `length()` method from the `string` class gathers the amount of bytes that the string takes up upon instantiation. Since a single `char` varible would hold a minimum size of 1 byte, the method `length()` would simply return the number of bytes (which is usually the amount of characters) in a string.
 
-
-
-For your problem, create a string variable with the value "FortyTwo" using the new way seen above. Then create another string variable called `answerToLifeAndEverything` and stores the value of the first string in the second using the `assign()` method from the string class (create the variable wherever, but `assign()` in `main()` ). Cout both strings in `main()`. 
+Create a function that takes the input of a string and prints half of it. Use a for loop as well as the length of the string in order to print half of it. 
+Test your function in `main()` with a string
