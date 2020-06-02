@@ -11,4 +11,4 @@ requirements:
 - The `is_greater` function returns a string.
 - The `is_greater` function uses an if, else if, and else expression.
 - The `is_greater` function accepts two numbers
-- The two numbers are read from the user into variables with different names than the function parameters.
+- The two numbers are read from the user(input) into variables with different names than the function parameters.
