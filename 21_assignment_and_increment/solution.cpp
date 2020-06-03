@@ -14,4 +14,8 @@ int main() {
     cout << x << "\n"; // Notice that this is 3
     cout << ++x << "\n"; // This is 4, as it is evaluated before it is printed
     cout << x << "\n";   // Notice that this is still 4
+    cout << x-- << "\n"; // This will print out 4 before it decrements
+    cout << x << "\n"; // Notice now that the variable is 3
+    cout << --x << "\n"; // This is now 2, since the operation occured before setting x
+    cout << x << "\n"; // This is still 2
 }

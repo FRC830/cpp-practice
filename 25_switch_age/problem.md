@@ -37,6 +37,16 @@ However, a switch statement can shorten the number of lines that need to be writ
     }
     ```
 
+It is also worth mentioning that there exsists a case for a variable that doesn't fit anywhere in a switch statement. This case is called `default` and it is the "default" case that will be evaluated when the inputed varible doesn't meet any other cases:
+
+    ```cpp
+    default:
+        cout << "Nothing special happens!" << endl;
+    
+
+    //There is no break statement because the default case is the last case evaluated, so there is no need to break the switch.
+    ```
+
 Create your own switch statement that will measure an "age" variable and does the following:
  - If age is 14, print out "You are in high school!"
  - If age is 18, print out "You are in college!"
