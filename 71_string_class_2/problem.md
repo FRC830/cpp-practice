@@ -39,3 +39,10 @@ The `length()` method from the `string` class gathers the amount of bytes that t
 
 Create a function that takes the input of a string and prints half of it. Use a for loop as well as the length of the string in order to print half of it. 
 Test your function in `main()` with a string
+
+As for all lessons, if you're having trouble:
+-(1) Ask a programming buddy
+-(2) Run the solution program
+-(3) Watch Bucky's video on the topic
+-(4) Ask a student leader
+-(5) Look at the solution program

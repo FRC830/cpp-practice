@@ -59,3 +59,10 @@ Create a class called `DogBreed` which will take an arguement of type string in 
 Next, create a class called `Dog`, that has two arguements of int `age` and another with the type `DogBreed`
 Make a method that will then print out `Dog`'s `age` and `DogBreed`
 Finally, create both objects in `main()` and use the method from `Dog` to print out the information of it's object.
+
+As for all lessons, if you're having trouble:
+-(1) Ask a programming buddy
+-(2) Run the solution program
+-(3) Watch Bucky's video on the topic
+-(4) Ask a student leader
+-(5) Look at the solution program

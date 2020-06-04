@@ -15,3 +15,10 @@ The `const` key word stands for constant and when it is used on variables, it me
 ```
 
 Create a program that will set a boolean called `isAlive` constantly true and then in `main()`, cout `"I am immortal"` after testing isAlive in a conditional.
+
+As for all lessons, if you're having trouble:
+-(1) Ask a programming buddy
+-(2) Run the solution program
+-(3) Watch Bucky's video on the topic
+-(4) Ask a student leader
+-(5) Look at the solution program

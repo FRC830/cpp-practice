@@ -51,3 +51,10 @@ int main(){
 
 Create a program that makes a Cat class with the method `meowNow` that will cout a string containing `"Meow!"`
 Then, create an instance of the class and store its memory address in a pointer and access the method `meowNow` from the pointer in `main()`.
+
+As for all lessons, if you're having trouble:
+-(1) Ask a programming buddy
+-(2) Run the solution program
+-(3) Watch Bucky's video on the topic
+-(4) Ask a student leader
+-(5) Look at the solution program

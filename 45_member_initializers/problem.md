@@ -53,3 +53,10 @@ int main(){
 Create a class called `Circle` and make a private static const float called `radius` and make a constructor with one arguement of type float. Set `radius` to the argument in the constructor using member initializer syntax. 
 Make a method that will print out the value of `radius` 
 Lastly, make an instance of `Circle` in main() and use the method to print out `radius` out that instance.
+
+As for all lessons, if you're having trouble:
+-(1) Ask a programming buddy
+-(2) Run the solution program
+-(3) Watch Bucky's video on the topic
+-(4) Ask a student leader
+-(5) Look at the solution program

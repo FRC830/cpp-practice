@@ -58,3 +58,10 @@ cout << userData
 This code also pertains to data in file format such as text files. Therefore, if you're reading the data from a text file and you want to store a line of text into a string, use the `getline()` method.
 
 For your problem, create a method that will ask the user to input their full name and middle inital with spaces and store the whole input in a string. Then, have the program cout the result.
+
+As for all lessons, if you're having trouble:
+-(1) Ask a programming buddy
+-(2) Run the solution program
+-(3) Watch Bucky's video on the topic
+-(4) Ask a student leader
+-(5) Look at the solution program

@@ -22,3 +22,10 @@ int area(int l, int w){
 
 Create a function called "circle_area" that will default to calculating a circle with a radius of 1. Call the function in `main()`
 *For this function, substitute pi as 3.14
+
+As for all lessons, if you're having trouble:
+-(1) Ask a programming buddy
+-(2) Run the solution program
+-(3) Watch Bucky's video on the topic
+-(4) Ask a student leader
+-(5) Look at the solution program

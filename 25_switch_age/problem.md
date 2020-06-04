@@ -54,6 +54,9 @@ Create your own switch statement that will measure an "age" variable and does th
  - If the age does not meet any of the cases, have it default to "Nothing special happens"
   *Remember to have each case (except default) include a break statement!
 
-
-
-
+As for all lessons, if you're having trouble:
+-(1) Ask a programming buddy
+-(2) Run the solution program
+-(3) Watch Bucky's video on the topic
+-(4) Ask a student leader
+-(5) Look at the solution program

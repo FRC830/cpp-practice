@@ -26,3 +26,10 @@ int whatRowAmI(int row) {
 
 + Create a recursive function that returns the factorial of a number `x`
 + Then call the function with a number from user input and print it out
+
+As for all lessons, if you're having trouble:
+-(1) Ask a programming buddy
+-(2) Run the solution program
+-(3) Watch Bucky's video on the topic
+-(4) Ask a student leader
+-(5) Look at the solution program
