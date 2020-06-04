@@ -4,10 +4,10 @@ I hate pointers, and I'm not very good at explaining them. [Here is a video that
 
 Follow the steps of the video and do these things:
 
-+ create a variable a and assign it to an int
-+ output a pointer (&) to a
++ create a variable called `a` and assign it to an int
++ output the address of `a`(&)
 + create a pointer named `aPointer`
-+ assign the new pointer `aPointer` as a reference (&) to a
++ assign the new pointer `aPointer` as a reference (&) to `a`
 + output `aPointer`
-+ using the defereference syntax, change the value of a to another number (*)
++ using the defereference syntax, change the value of `a` to another number (*)
 + output the value of `a`

@@ -5,6 +5,6 @@ Create a program that will construct an array of your choice dynamically. This m
 ## Requirements
 
 + It cannot be the same program as the solution
-+ It uses a for loop
++ It uses a for loop for `cout`ing the elements 
 + The array is of size 5 or larger
 + Reading from user input is optional

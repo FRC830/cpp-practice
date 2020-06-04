@@ -26,12 +26,29 @@ Two of the most used Logical Operators are these:
 The AND operator will test to see if two conditions are met. We can use this operator to shorten our code.
 
     ```cpp
-    int age = 18;
+    int age = 20;
     bool license = true;
     if(age > 18 && license == true){
         cout << "I can drive!" << endl;
     }
 
+    // The code above will print out "I can drive!"
     ```
 
-Create code that will test to see if a person is under the age of 18 and can play an instrument. If this is true, have it cout "I am a student".
+The OR operator will test to see one or both of two conditions are met. For example:
+
+    ```cpp
+
+    bool choresExist = true;
+    bool isRaining = false;
+    if(choresExist || isRaining) //Booleans can be tested without a == operator
+    {
+        cout << "This is just the Human Condition" << endl;
+    }
+
+    // The program will print out the statement because one of the conditions (choresExist) is true.
+    
+    ```
+
+
+Create code in `main()` that will test to see if a person is under the age of 18 and can play an instrument. If this is true, have it cout "I am a student".

@@ -1,4 +1,5 @@
 #include<iostream>
+#include<string>
 
 
 using namespace std;
@@ -7,7 +8,8 @@ using namespace std;
 class Cat{
     public:
         void meowNow(){
-            cout << "Meow!" << endl;
+            string catNoise = "Meow!";
+            cout << catNoise << endl;
         }
 };
 

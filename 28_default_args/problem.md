@@ -20,5 +20,5 @@ int area(int l, int w){
 //The above code will cout "1"
 ```
 
-Create a function called "circle_area" that will default to calculating a circle with a radius of 1
+Create a function called "circle_area" that will default to calculating a circle with a radius of 1. Call the function in `main()`
 *For this function, substitute pi as 3.14

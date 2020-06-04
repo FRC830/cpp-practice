@@ -10,7 +10,7 @@ In code this is represented with a function that does 2 things:
 1) A stop condition (The first row in the movie theater)
 2) A recursive call (Adding one to the result of the dude in front)
 
-This example is of course, useless because we know what row we are in with the int parameter.
+This example is, of course, useless because we know what row we are in with the int parameter.
 
 ```cpp
 int whatRowAmI(int row) {

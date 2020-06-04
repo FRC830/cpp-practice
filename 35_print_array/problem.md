@@ -13,7 +13,7 @@ Then, include the header `test.h`. Pop quiz: do you use `"` or `<>` to include i
 
 ### Problem
 
-create a function `printArray` that accepts an int array and the size of the array, and using a for loop prints out every value.
+Create a function `printArray` that accepts an int array and the size of the array, and using a for loop prints out every value.
 
 ### Requirements
 

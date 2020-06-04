@@ -50,4 +50,4 @@ int main(){
 ```
 
 Create a program that makes a Cat class with the method `meowNow` that will cout a string containing `"Meow!"`
-Then, create an instance of the class and store its memory address in a pointer and access the method `meowNow` from the pointer.
+Then, create an instance of the class and store its memory address in a pointer and access the method `meowNow` from the pointer in `main()`.
