@@ -50,9 +50,9 @@ int main(){
 ```
 
 
-Create a class called `Circle` and make a private static const float called `radius` and make a constructor with one arguement of type float. Set `radius` to the argument in the constructor using member initializer syntax. 
-Make a method that will print out the value of `radius` 
-Lastly, make an instance of `Circle` in main() and use the method to print out `radius` out that instance.
+Create a class in a `.h` file called `Circle` and make a private static const float called `radius` and a public constructor with a single float arguement. Also declare a public method that will print out the value of `radius`.
+Set `radius` to the argument in the constructor using member initializer syntax in a `.cpp` file and define the method for printing out `radius`.
+Lastly, make an instance of `Circle` in a `main.cpp` file and use the method to print out `radius` out that instance.
 
 As for all lessons, if you're having trouble:
 -(1) Ask a programming buddy

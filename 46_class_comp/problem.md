@@ -58,7 +58,10 @@ int main(){
 Create a class called `DogBreed` which will take an arguement of type string in its constructor. Make the variable that stores the parameter private, like in the `Graduation` class above. Make a method to print out the dog breed variable as well.
 Next, create a class called `Dog`, that has two arguements of int `age` and another with the type `DogBreed`
 Make a method that will then print out `Dog`'s `age` and `DogBreed`
-Finally, create both objects in `main()` and use the method from `Dog` to print out the information of it's object.
+Finally, create both objects in `main()` and use the method from `Dog` to print out all the information of its object.
+
+**Notice** that multiple classes will need to be created for this lesson. In order to save space, just create all the classes in one "main" `.cpp` file with both declarations and definitions.
+
 
 As for all lessons, if you're having trouble:
 -(1) Ask a programming buddy

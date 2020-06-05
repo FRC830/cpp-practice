@@ -46,10 +46,11 @@ int main(){
 - Initialize an instance of the `Quadraleteral` class and call the method from `main`
 - Create a method on the `Quadraleteral` class  that prints the number of sides **as well as a statement such as 'Called from square' or 'I have all right angles.'**
 - Initialize an instance of the `Square` class and call the method from `main`
+- Creating this program in  a `.h` and `.cpp` is preferred, but doing it all in one `main.cpp` file is also allowed.
 
 As for all lessons, if you're having trouble:
--(1) Ask a programming buddy
--(2) Run the solution program
--(3) Watch Bucky's video on the topic
--(4) Ask a student leader
--(5) Look at the solution program
+- (1) Ask a programming buddy
+- (2) Run the solution program
+- (3) Watch Bucky's video on the topic
+- (4) Ask a student leader
+- (5) Look at the solution program

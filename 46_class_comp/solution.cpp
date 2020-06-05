@@ -22,7 +22,9 @@ class DogBreed{
 class Dog {
 
     public:
-        Dog(int a, DogBreed breedO): age(a) , breed(breedO) {}
+        Dog(int a, DogBreed breedO)
+        : age(a) , breed(breedO) 
+        {}
         void printInfo() {
             cout << "The age of this dog is " << age << " and the breed is ";
             breed.printBreed();
