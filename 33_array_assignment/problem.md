@@ -10,8 +10,8 @@ Create a program that will construct an array of your choice dynamically. This m
 + Reading from user input is optional
 
 As for all lessons, if you're having trouble:
--(1) Ask a programming buddy
--(2) Run the solution program
--(3) Watch Bucky's video on the topic
--(4) Ask a student leader
--(5) Look at the solution program
+- (1) Ask a programming buddy
+- (2) Run the solution program
+- (3) Watch Bucky's video on the topic
+- (4) Ask a student leader
+- (5) Look at the solution program

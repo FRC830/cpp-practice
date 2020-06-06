@@ -54,8 +54,8 @@ The OR operator will test to see one or both of two conditions are met. For exam
 Create code in `main()` that will test to see if a person is under the age of 18 and can play an instrument. If this is true, have it cout "I am a student".
 
 As for all lessons, if you're having trouble:
--(1) Ask a programming buddy
--(2) Run the solution program
--(3) Watch Bucky's video on the topic
--(4) Ask a student leader
--(5) Look at the solution program
+- (1) Ask a programming buddy
+- (2) Run the solution program
+- (3) Watch Bucky's video on the topic
+- (4) Ask a student leader
+- (5) Look at the solution program

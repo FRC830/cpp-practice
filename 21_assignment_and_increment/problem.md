@@ -25,8 +25,8 @@ Try out these:
 We are also not going to `return 0;` at the end of main anymore, as it is just a formality from old-style c++ programming.
 
 As for all lessons, if you're having trouble:
--(1) Ask a programming buddy
--(2) Run the solution program
--(3) Watch Bucky's video on the topic
--(4) Ask a student leader
--(5) Look at the solution program
+- (1) Ask a programming buddy
+- (2) Run the solution program
+- (3) Watch Bucky's video on the topic
+- (4) Ask a student leader
+- (5) Look at the solution program

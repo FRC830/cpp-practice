@@ -55,8 +55,8 @@ Set `radius` to the argument in the constructor using member initializer syntax 
 Lastly, make an instance of `Circle` in a `main.cpp` file and use the method to print out `radius` out that instance.
 
 As for all lessons, if you're having trouble:
--(1) Ask a programming buddy
--(2) Run the solution program
--(3) Watch Bucky's video on the topic
--(4) Ask a student leader
--(5) Look at the solution program
+- (1) Ask a programming buddy
+- (2) Run the solution program
+- (3) Watch Bucky's video on the topic
+- (4) Ask a student leader
+- (5) Look at the solution program

@@ -60,12 +60,12 @@ Next, create a class called `Dog`, that has two arguements of int `age` and anot
 Make a method that will then print out `Dog`'s `age` and `DogBreed`
 Finally, create both objects in `main()` and use the method from `Dog` to print out all the information of its object.
 
-**Notice** that multiple classes will need to be created for this lesson. In order to save space, just create all the classes in one "main" `.cpp` file with both declarations and definitions.
+**Notice** that multiple classes will need to be created for this lesson. This means that each class will require a `.h` and `.cpp` like previous lessons. Make sure that variable and method declarations are in the header file and  their definitions are in the `.cpp` file.
 
 
 As for all lessons, if you're having trouble:
--(1) Ask a programming buddy
--(2) Run the solution program
--(3) Watch Bucky's video on the topic
--(4) Ask a student leader
--(5) Look at the solution program
+- (1) Ask a programming buddy
+- (2) Run the solution program
+- (3) Watch Bucky's video on the topic
+- (4) Ask a student leader
+- (5) Look at the solution program

@@ -40,13 +40,13 @@ int main(){
 ### Problem
 
 - Create a base class called `Quadralateral`
-- Give it a public int variable called `numOfSides` and set it.
+- Give it a public int variable called `numOfSides` and set it to 4 in the `.h` file.
 - Create another class called `Square` that will derive from `Quadraleteral`. (Use the colon with public)
-- Create a method on the `Quadraleteral` class  that prints the number of sides
+- Create a method on the `Quadraleteral` class that prints the number of sides
 - Initialize an instance of the `Quadraleteral` class and call the method from `main`
-- Create a method on the `Quadraleteral` class  that prints the number of sides **as well as a statement such as 'Called from square' or 'I have all right angles.'**
+- Create a method on the `Square` class that prints the number of sides **as well as a statement such as 'Called from square' or 'I have all right angles.'**
 - Initialize an instance of the `Square` class and call the method from `main`
-- Creating this program in  a `.h` and `.cpp` is preferred, but doing it all in one `main.cpp` file is also allowed.
+- Creating this program in  a `.h` and `.cpp` is preferred, so make sure to declare and then define all your class memebers.
 
 As for all lessons, if you're having trouble:
 - (1) Ask a programming buddy
