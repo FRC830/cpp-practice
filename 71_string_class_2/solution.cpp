@@ -6,7 +6,7 @@ using namespace std;
 
 
 
-string testStr("BrotherMoment");
+void testStr("BrotherMoment");
 
 string halfString(string x){
     for(int i = 0; i < x.length() / 2; i ++){

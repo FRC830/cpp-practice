@@ -55,7 +55,7 @@ For this lesson's problem, use the following string definition:
 string fruits("Apple Peach Grapes Grapes Apple Tomatoes");
 
 ```
-First, create a string variable and store a substring that will contain the first **five** words of `fruits`. Then cout the first occurance of Grapes using the `find()` method from the string class and the cout the last occurance of Apple using the `rfind()` method.
+First, create a string variable and store a substring that will contain the first **five** words of `fruits`. Then, in the `main()` method, cout the first occurance of Grapes using the `find()` method from the string class and the cout the last occurance of Apple using the `rfind()` method.
 
 As for all lessons, if you're having trouble:
 - (1) Ask a programming buddy

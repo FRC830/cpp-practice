@@ -7,7 +7,7 @@ string animal("Zebra");
 
 int main(){
     cout << animal[2];
-    // Prints out "b"; array indexes always start at 0
+    // Prints out "b", Array indexes always start at 0
 }
 ```
 
