@@ -13,6 +13,7 @@ The fighter class should include the following **private** values:
 + `defense`
 + `name`
 + `heal`
+
 Create a default constructor that will initialize `hp`, `damage`, `heal`, and `defense` to zero, and the `name` to `"DEFAULT"`.
 
 In addition, create a constructor that takes in values for `hp`, `damage`, `defense`,`heal` and a `name` and sets them appropriately.
@@ -23,20 +24,20 @@ Then, create a main program. Create 2 instances of the fighter class with differ
 
 Create the following **public** methods on the `Fighter` class:
 
-`is_alive` that returns a `boolean` representing if the `hp` is less than or equal to zero.
++ `is_alive` that returns a `boolean` representing if the `hp` is less than or equal to zero.
 
-`take_damage`, accepting a double and subtracting that value from its `hp`
++ `take_damage`, accepting a double and subtracting that value from its `hp`
 
-`get_damage`, returning the amount of damage a fighter can do.
++ `get_damage`, returning the amount of damage a fighter can do.
 
-`boost_defense`:  either add a constant to the defense value or multiply the defense by a constant. You can pass in this constant as a parameter, or make it a value in the class, such as `defense_boost`.
++ `boost_defense`:  either add a constant to the defense value or multiply the defense by a constant. You can pass in this constant as a parameter, or make it a value in the class, such as `defense_boost`.
 
-`display_stats`: Output a statement about the current stats of the user. e.g. `My health is 100, my defense is 10.`
++ `display_stats`: Output a statement about the current stats of the user. e.g. `My health is 100, my defense is 10.`
 
-`heal`: Add the `heal` value in the class to the fighters `hp`
++ `heal` *(Not to be confused with the `heal` value)*: Add the `heal` value in the class to the fighters `hp`
 
-+ If you want, you can add in some [randomness](http://www.cplusplus.com/reference/cstdlib/rand/)
-+ You can add additional properties and methods to the fighter as you see fit.
+ If you want, you can add in some [randomness](http://www.cplusplus.com/reference/cstdlib/rand/).
+You can also add additional properties and methods to the fighter as you see fit.
 
 
 In your main program, you should've initialized the Fighters using either user input or constants.
