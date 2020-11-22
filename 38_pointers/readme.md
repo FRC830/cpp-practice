@@ -9,7 +9,7 @@ Follow the steps of the video and do these things:
 + create a pointer named `aPointer`
 + assign the new pointer `aPointer` as a reference (&) to `a`
 + output `aPointer`
-+ using the defereference syntax, change the value of `a` to another number (*)
++ using the defereference syntax, change the value at `aPointer` to another number (*)
 + output the value of `a`
 
 As for all lessons, if you're having trouble:
