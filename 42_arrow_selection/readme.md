@@ -7,7 +7,7 @@ Before when we needed to access things in classes we would use a "." operator. F
 
 
 ```cpp
-class Human(){
+class Human {
     Human();
     void sayGreeting(){
         cout << "Hello World!" << endl;
@@ -27,7 +27,7 @@ If we store an object's memory address inside a pointer and try to run methods f
 ```cpp
 
 
-class Human(){
+class Human {
     Human();
     void sayGreeting(){
         cout << "Hello World!" << endl;
