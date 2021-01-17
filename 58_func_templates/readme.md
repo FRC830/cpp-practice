@@ -27,7 +27,7 @@ number addNumbers(number x, number y){
 
 This function is called a function template. Essentially, we're using a generic type of data called `number` as a template and it allows us to pass in multiple types of variables in the function.
 
-For your problem, create a funciton that will return the square (x ^ 2) of any numerical type. Create a `template` type to be passed in to the function.
+For your problem, create a funciton that will return the square (`x * x`) of any numerical type. Create a `template` type to be passed in to the function.
 Use your function in `main()` and `cout` the result for two different datatypes.
 
 As for all lessons, if you're having trouble:
