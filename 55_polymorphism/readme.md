@@ -55,7 +55,9 @@ int main(){
 - Create a base class called `HealItem` and make it have a protected int variable called `healPower` and make a public method to set the variable.
 - Create two different derived classes that will both heal different amounts of health. Make methods for both to print out their name and the amount of health they heal.
 - Make two instances of the object in `main()`, set their `healPower` variables and print out their descriptions. 
-- **Note:**the code will all be created in the `.cpp` and `.h` file format.
+
+**Note:**
+- the code will all be created in the `.cpp` and `.h` file format.
 
 As for all lessons, if you're having trouble:
 - (1) Ask a programming buddy
